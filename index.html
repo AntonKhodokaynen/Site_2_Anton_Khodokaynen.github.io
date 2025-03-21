@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+    <main>
+        <section i>
+            <div class="head">
+                <div class="head_flex">
+                    <p class="button a1">
+                        О себе
+                    </p>
+                    <p class="button a2">
+                        Мои работы
+                    </p>
+                    <p class="button a3">
+                        Контакты
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="about_self" class="title" style="background-color: var(--white)">
+            <img class="title_back" src="images/background_title.svg" alt="background_title">
+            <div class="center">
+                <div class="business_card">
+                    <img class="anton" src="images/anton.jpg" alt="background_title">
+                    <div class="card_flex">
+                        <p>
+                            Ходокайнен Антон Евгеньевич
+                        </p>
+                        <p>
+                            Образование: среднее общее
+                        </p>
+                        <p>
+                            Программы:
+                        </p>
+                        <div class="program_flex">
+                            <div class="program_flex_row">
+                                <img style="width: 2.604vw;" src="images/figma.svg" alt="figma">
+                                <p>Figma</p>
+                            </div>
+                            <div class="program_flex_row">
+                                <img style="width: 2.604vw;" src="images/blender_logo 1.svg" alt="blender">
+                                <p>Blender</p>
+                            </div>
+                            <div class="program_flex_row">
+                                <img style="width: 2.604vw;"    src="images/adobe-photoshop.svg" alt="photoshop">
+                                <p>Photoshop</p>
+                            </div>
+                        </div>
+                        <p>
+                            Город: Санкт-Петербург
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="product">
+            <div  class="product_flex" style="background-color: var(--white);">
+                <p class="center" style="font-size: 3.3vw">
+                    Мои работы
+                </p>
+                <div>
+                    <p>
+                        Дизайн
+                    </p>
+                    <div class="slider_flex">
+                        <button class="arrow left">&#10094;</button>  
+                        <div class="slider">
+                            <div class="slides">            
+                                <img src="images/design/1.png" alt="Изображение 1">            
+                                <img src="images/design/2.png" alt="Изображение 2">            
+                                <img src="images/design/3.png" alt="Изображение 3">
+                                <img src="images/design/4.png" alt="Изображение 4">
+                                <img src="images/design/5.png" alt="Изображение 5">            
+                                <img src="images/design/6.png" alt="Изображение 6">            
+                                <img src="images/design/7.png" alt="Изображение 7">
+                                <img src="images/design/8.png" alt="Изображение 8">
+                                <img src="images/design/9.png" alt="Изображение 9">
+                            </div>                      
+                        </div>
+                        <button class="arrow right">&#10095;</button>
+                    </div>
+                </div>
+                <div>
+                    <p>
+                        Иллюстрации
+                    </p>
+                    <div class="slider_flex">
+                        <button class="arrow left">&#10094;</button>  
+                        <div class="slider">
+                            <div class="slides">            
+                                <img src="images/illustation/1.png" alt="Изображение 1">            
+                                <img src="images/illustation/2.png" alt="Изображение 2">            
+                                <img src="images/illustation/3.png" alt="Изображение 3">
+                                <img src="images/illustation/4.png" alt="Изображение 4">
+                                <img src="images/illustation/5.png" alt="Изображение 5">            
+                                <img src="images/illustation/6.png" alt="Изображение 6">            
+                                <img src="images/illustation/7.png" alt="Изображение 7">
+                                <img src="images/illustation/8.png" alt="Изображение 8">
+                                <img src="images/illustation/9.png" alt="Изображение 9">
+                            </div>                      
+                        </div>
+                        <button class="arrow right">&#10095;</button>
+                    </div>
+                </div>
+                <div>
+                    <p>
+                        3D моделирование
+                    </p>
+                    <div class="slider_flex">
+                        <button class="arrow left">&#10094;</button>  
+                        <div class="slider">
+                            <div class="slides">            
+                                <img src="images/3d/1.png" alt="Изображение 1">            
+                                <img src="images/3d/2.png" alt="Изображение 2">            
+                                <img src="images/3d/3.png" alt="Изображение 3">
+                                <img src="images/3d/4.png" alt="Изображение 4">
+                                <img src="images/3d/5.png" alt="Изображение 5">            
+                                <img src="images/3d/6.png" alt="Изображение 6">            
+                            </div>                      
+                        </div>
+                        <button class="arrow right">&#10095;</button>
+                    </div>
+                </div>
+            </div>
+            <div id="modal" class="modal">
+                <span class="close" id="closeModal">&times;</span>
+                <img class="modal-content" id="modalImg">
+                <div id="caption"></div>            
+            </div>
+            <img class="title_back" style="background-image: linear-gradient(var(--white),var(--fiol));" src="images/background_foot.svg" alt="background_footer">
+        </section>
+        <section id="chat">
+            <div class="chat_flex">
+                <p>
+                    Номер телефона: +7 911 052 1523
+                </p>
+                <p>
+                    Gmail: khantоn3@gmail.com
+                </p>
+                <p>
+                    Vk: khodokaynenanton
+                </p>
+            </div>
+        </section>
+        <section >
+            <div class="footer">
+                <div class="footer_flex">
+                    <a href="#" class="button">
+                        Главное меню
+                    </a>
+                    <p class="button a4">
+                        О себе
+                    </p>
+                    <p class="button a5">
+                        Мои работы
+                    </p>
+                </div>
+                <div class="footer_flex">
+                    <a href="https://vk.com/khodokaynenanton" class="button">
+                        Vkontakte
+                    </a>
+                    <a href="https://t.me/Khodokaynenanton" class="button">
+                        Telegram
+                    </a>
+                    <a class="button">
+                        Discord
+                    </a>
+                </div>
+                <div class="foot_title">
+                    <p>
+                        Портфолио
+                    </p>
+                    <p>
+                        Ходокайнен Антон
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
